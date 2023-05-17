@@ -1,0 +1,40 @@
+# 设置默认行为，以防人们没有设置 core.autocrlf
+* text=auto
+
+# 明确声明你希望哪些文本文件在检出时总是被规范化和转换为本地的行尾字符
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+*.cs text
+*.java text
+*.go text
+*.js text
+*.ts text
+*.py text
+*.rb text
+*.php text
+*.html text
+*.css text
+*.json text
+*.xml text
+*.yml text
+*.md text
+
+# 声明哪些文件在检出时总是使用 CRLF 行尾字符
+*.sln text eol=crlf
+
+# 标记哪些文件是真正的二进制文件，不应被修改
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.jar binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
